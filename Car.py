@@ -8,7 +8,7 @@ class Car():
         self.name = name
         self.speed = 0
 
-        if self.type == "Porshe" or self.type == "Koenigsegg":
+        if self.name == "Porshe" or self.name == "Koenigsegg":
             self.num_of_doors = 2
         else:
             self.num_of_doors = 4
@@ -28,5 +28,5 @@ class Car():
         if self.type == "trailer":
             self.speed = (11 * my_speed)
         else:
-            self.speed = math.ceil((33.33 * my_speed))
+            self.speed = math.ceil((333.33 * my_speed))
         return self
