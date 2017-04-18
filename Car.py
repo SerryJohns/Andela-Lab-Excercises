@@ -1,6 +1,3 @@
-import math
-
-
 class Car():
     def __init__(self, name="General", model="GM", type=""):
         self.type = type
@@ -28,5 +25,5 @@ class Car():
         if self.type == "trailer":
             self.speed = (11 * my_speed)
         else:
-            self.speed = math.ceil((333.33 * my_speed))
+            self.speed = (10 ** my_speed)
         return self
